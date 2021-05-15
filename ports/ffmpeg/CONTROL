@@ -110,6 +110,10 @@ Feature: lzma
 Build-Depends: liblzma
 Description: lzma support
 
+Feature: qsv
+Build-Depends: ffmpeg
+Description: Intel QuickSync video hardware decoding/encoding
+
 Feature: modplug
 Build-Depends: libmodplug
 Description: ModPlug via libmodplug
